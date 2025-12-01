@@ -38,4 +38,4 @@ Reflecting the diversity of multimodal video-audio content in real-world scenari
 
 ### Demos of four multimodal video-audio data types
 #### Fake Video - Fake Audio
-![](demos/Fake_Fake/fake_fake_human.mp4)
+[观看完整视频](https://github.com/HuMengXue0104/MVAD/blob/main/demos/Fake_Fake/fake_fake_animal.mp4)
