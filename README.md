@@ -49,5 +49,5 @@ Reflecting the diversity of multimodal video-audio content in real-world scenari
 #### Real Video - Fake Audio
 ![scene](demos/Real_Fake/real_fake_scene.gif)
 [demo_scene](https://github.com/HuMengXue0104/MVAD/blob/main/demos/Real_Fake/real_fake_scene.mp4)
-![object](demos/Real_Fake/real_fake_object.gif)
+![human](demos/Real_Fake/real_fake_human.gif)
 [demo_human](https://github.com/HuMengXue0104/MVAD/blob/main/demos/Real_Fake/real_fake_human.mp4)
