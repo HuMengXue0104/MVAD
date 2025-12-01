@@ -63,9 +63,5 @@ Reflecting the diversity of multimodal video-audio content in real-world scenari
 #### Real Video - Real Audio
 ![animal](demos/Real_Real/real_real_animal.gif)
 [demo_animal](https://github.com/HuMengXue0104/MVAD/blob/main/demos/Real_Real/real_real_animal.mp4)
-![scene](demos/Real_Real/real_real_scene.gif)
-[demo_scene](https://github.com/HuMengXue0104/MVAD/blob/main/demos/Real_Real/real_real_scene.mp4)
-![object](demos/Real_Real/real_real_object.gif)
-[demo_object](https://github.com/HuMengXue0104/MVAD/blob/main/demos/Real_Real/real_real_object.mp4)
 ![human](demos/Real_Real/real_real_human.gif)
 [demo_human](https://github.com/HuMengXue0104/MVAD/blob/main/demos/Real_Real/real_real_human.mp4)
