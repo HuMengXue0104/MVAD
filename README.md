@@ -21,7 +21,7 @@ Reflecting the diversity of multimodal video-audio content in real-world scenari
 | Kling2.1 | F-F | - | 5s/10s | - | 513 |  |  |
 | Kling2.5Turbo | F-F | - | 5s/10s | - | 249 |  |  |
 | Sora2 | F-F | - | 10s | - | 996 |  |  |
-| Voe3 | F-F | - | 8s-60s | - | 200 | 11,550 |  |
+| Veo3 | F-F | - | 8s-60s | - | 200 | 11,550 |  |
 | MoonValley | F-F | FC&HY&MMA&AX | 4s | 11,508 | - |  |  |
 | pika | F-F | FC&HY&MMA&AX | 3s | 13,128 | - |  |  |
 | Haiper | F-F | FC&HY&MMA&AX | 2s | 5,584 | - |  |  |
