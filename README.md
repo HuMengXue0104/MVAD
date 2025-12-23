@@ -14,7 +14,7 @@ Reflecting the diversity of multimodal video-audio content in real-world scenari
 | OpenVid-1M | R-F | FC&HY&MMA&AX | 1-10s | - | 8,000 | 15,880 |  |
 | InternVid-10M | R-F | FC&HY&MMA&AX | 1-10s | 8,000 | - |  |  |
 | MSR-VTT | R-F | FC&HY&MMA&AX | 1-10s | 8,000 | - | 16,000 | 31,880 |
-| Sora | R-F | FC&HY&MMA&AX | 10-30s | - | 224 |  |  |
+| Sora | F-F | FC&HY&MMA&AX | 10-30s | - | 224 |  |  |
 | Viva | F-F | FC&HY&MMA&AX | 2-5s | - | 3,980 |  |  |
 | Vidu | F-F | FC&HY&MMA&AX | 3s | - | 2,908 |  |  |
 | JiMeng | F-F | FC&HY&MMA&AX | 3s | - | 2,480 |  |  |
