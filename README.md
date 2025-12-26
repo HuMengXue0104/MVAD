@@ -35,7 +35,9 @@ Reflecting the diversity of multimodal video-audio content in real-world scenari
 | Humo | F-R | - | 3s | 10,000 | - | 10,000 | 10,700 |
 | **Total Count** | - | - | - | 176,628 | 59,130 |  | 215,758 |
 ### MVAD Dataset Download
-Our dataset will be released soon.
+Our dataset has been released on modelscope and huggingface, and is being continuously updated.
+modelscope：https://modelscope.cn/datasets/MengxueBoBo/MVAD
+huggingface：https://huggingface.co/datasets/mengxuebobo/MVAD
 ### Demos of four multimodal video-audio data types
 #### Fake Video - Fake Audio
 ![animal](demos/Fake_Fake/fake_fake_animal.gif)
