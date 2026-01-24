@@ -2,7 +2,7 @@
 MVAD is the first general-purpose dataset specifically designed for detecting AI-generated multimodal video-audio content.https://www.arxiv.org/abs/2512.00336
 ![](imgs/stastics.png)
 ## MVAD Dataset Download
-We are currently conducting data screening and cleaning. Once this process is completed, we will republish the dataset and update the related content accordingly.
+The previously released dataset has certain copyright issues, and we recommend discontinuing the use of the old version. We are currently accelerating the data screening and cleaning process, which is expected to be completed within two weeks. Once finished, we will release a new version of the dataset with higher quality and the most advanced audio and video content available.
 ## :file_folder: Dataset Overview
 ### Statistics of  multimodal video-audio data in the MVAD dataset:
 Reflecting the diversity of multimodal video-audio content in real-world scenarios, MVAD spans two visual domains (realistic and anime-style) and covers four primary categories: humans, animals, objects, and scenes. The dataset incorporates three video-audio forgery types and four modality combinations (fake-fake, fake-real, real-fake, real-real). As shown in Table, MVAD contains 205,758 multimodal video-audio samples generated using over 20 distinct methods, including 104,578 forged and 101,000 authentic samples. Following conventional dataset design principles , MVAD maintains a 1:1 ratio between forged and authentic samples. The distribution across modality combinations is as follows: fake-fake (62,178 samples), real-fake (31,880), fake-real (10,700), and real-real (101,000).
