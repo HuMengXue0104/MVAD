@@ -2,39 +2,40 @@
 MVAD is the first general-purpose dataset specifically designed for detecting AI-generated multimodal video-audio content.https://www.arxiv.org/abs/2512.00336
 ![](imgs/stastics.png)
 ## MVAD Dataset Download
-The previously released dataset has certain copyright issues, and we recommend discontinuing the use of the old version. We are currently accelerating the data screening and cleaning process, which is expected to be completed within two weeks. Once finished, we will release a new version of the dataset with higher quality and the most advanced audio and video content available.
+The version issue has been resolved, so everyone can use it. The training set has been uploaded, and the test set is still being uploaded.
 ## :file_folder: Dataset Overview
 ### Statistics of  multimodal video-audio data in the MVAD dataset:
-Reflecting the diversity of multimodal video-audio content in real-world scenarios, MVAD spans two visual domains (realistic and anime-style) and covers four primary categories: humans, animals, objects, and scenes. The dataset incorporates three video-audio forgery types and four modality combinations (fake-fake, fake-real, real-fake, real-real). As shown in Table, MVAD contains 205,758 multimodal video-audio samples generated using over 20 distinct methods, including 104,578 forged and 101,000 authentic samples. Following conventional dataset design principles , MVAD maintains a 1:1 ratio between forged and authentic samples. The distribution across modality combinations is as follows: fake-fake (62,178 samples), real-fake (31,880), fake-real (10,700), and real-real (101,000).
-| Video Source | Modality | Audio Generate | Length | Train | Test | Count | Total Count |
-|-------------|----------|---------------|--------|-------|------|-------|-------------|
-| Ugc-VideoCaptioner | R-R | - | 10-60s | - | 1,000 |  |  |
-| HarmonySet | R-R | - | 10-60s | - | 30,000 | 31,000 |  |
-| TalkVid | R-R | - | 3s | 80,000 | - | 80,000 | 111,000 |
-| Msvd | R-F | FC&HY&MMA&AX | 1-10s | - | 7,880 |  |  |
-| OpenVid-1M | R-F | FC&HY&MMA&AX | 1-10s | - | 8,000 | 15,880 |  |
-| InternVid-10M | R-F | FC&HY&MMA&AX | 1-10s | 8,000 | - |  |  |
-| MSR-VTT | R-F | FC&HY&MMA&AX | 1-10s | 8,000 | - | 16,000 | 31,880 |
-| Sora | F-F | FC&HY&MMA&AX | 10-30s | - | 224 |  |  |
-| Viva | F-F | FC&HY&MMA&AX | 2-5s | - | 3,980 |  |  |
-| Vidu | F-F | FC&HY&MMA&AX | 3s | - | 2,908 |  |  |
-| JiMeng | F-F | FC&HY&MMA&AX | 3s | - | 2,480 |  |  |
-| Kling2.1 | F-F | - | 5s/10s | - | 513 |  |  |
-| Kling2.5Turbo | F-F | - | 5s/10s | - | 249 |  |  |
-| Sora2 | F-F | - | 10s | - | 996 |  |  |
-| Veo3 | F-F | - | 8s-60s | - | 200 | 11,550 |  |
-| MoonValley | F-F | FC&HY&MMA&AX | 4s | 11,508 | - |  |  |
-| pika | F-F | FC&HY&MMA&AX | 3s | 13,128 | - |  |  |
-| Haiper | F-F | FC&HY&MMA&AX | 2s | 5,584 | - |  |  |
-| Noisee | F-F | FC&HY&MMA&AX | 4s | 5,184 | - |  |  |
-| Pixverse | F-F | FC&HY&MMA&AX | 4s | 8,628 | - |  |  |
-| Emu3 | F-F | FC&HY&MMA&AX | 4s | 3,600 | - |  |  |
-| Gen3 | F-F | FC&HY&MMA&AX | 10s | 2,668 | - |  |  |
-| Kling1.6 | F-F | - | 5s/10s | 328 | - | 50,628 | 62,178 |
-| Wan2.1 | F-R | - | 3s | - | 500 | 700 |  |
-| Kling-Avata | F-R | - | 3s | - | 200 | 700 |  |
-| Humo | F-R | - | 3s | 10,000 | - | 10,000 | 10,700 |
-| **Total Count** | - | - | - | 176,628 | 59,130 |  | 215,758 |
+Reflecting the diversity of multimodal video-audio content in real-world scenarios, MVAD spans two visual domains (realistic and anime-style) and covers four primary categories: humans, animals, objects, and scenes. The dataset incorporates three video-audio forgery types and four modality combinations (fake-fake, fake-real, real-fake, real-real). As shown in Table, MVAD contains 205,758 multimodal video-audio samples generated using over 20 distinct methods, including  forged and 101,000 authentic samples. Following conventional dataset design principles , MVAD maintains a 1:1 ratio between forged and authentic samples. The distribution across modality combinations is as follows: fake-fake (62,178 samples), real-fake (31,880), fake-real (10,700), and real-real (101,000).
+| Video Source       | Modality | Audio Generate       | Length   | Train | Test  | Count | Total Count |
+|--------------------|----------|----------------------|----------|-------|-------|-------|-------------|
+| Ugc-VideoCaptioner | R-R      | -                    | 10-60s   | -     | 1000  |       |             |
+| HumoSet            | R-R      | -                    | 10-60s   | -     | 10000 |       |             |
+| HarmonySet         | R-R      | -                    | 10-60s   | 30000 | -     |       |             |
+| TalkVid            | R-R      | -                    | 3s       | 20000 | -     | 50000 |             |
+| Msvd               | R-F      | FC&HY&MMA&AX         | 1-10s    | -     | 4000  |       |             |
+| OpenVid-1M         | R-F      | FC&HY&MMA&AX         | 1-10s    | 8000  | -     |       |             |
+| InternVid-10M      | R-F      | FC&HY&MMA&AX         | 1-10s    | 8000  | -     |       |             |
+| MSR-VTT            | R-F      | FC&HY&MMA&AX         | 1-10s    | 8000  | -     |       |             |
+| Pika               | F-F      | FC&HY&MMA&AX         | 3-5s     | -     | 664   |       |             |
+| ViduQ2             | F-F      | -                    | 2-5s     | -     | 1171  |       |             |
+| ViduQ3             | F-F      | -                    | 2-5s     | -     | 100   |       |             |
+| Wan2.6             | F-F      | -                    | 5-10s    | -     | 1090  |       |             |
+| Seedance2.0        | F-F      | -                    | 5s       | -     | 270   |       |             |
+| Kling3.0           | F-F      | -                    | 5s/10s   | -     | 622   |       |             |
+| Seedance1.5        | F-F      | -                    | 5s/10s   | -     | 1042  |       |             |
+| Veo3               | F-F      | -                    | 8-60s    | -     | 41    |       |             |
+| JiMeng             | F-F      | FC&HY&MMA&AX         | 5-10s    | 4764  | -     |       |             |
+| KlingO1            | F-F      | FC&HY&MMA&AX         | 4s       | 4400  | -     |       |             |
+| Sora2              | F-F      | -                    | 5-10s    | 5000  | -     |       |             |
+| Kling2.1           | F-F      | -                    | 5-10s    | 513   | -     |       |             |
+| Kling1.6           | F-F      | -                    | 5-10s    | 324   | -     |       |             |
+| Kling2.6           | F-F      | -                    | 5-10s    | 1902  | -     |       |             |
+| kling2.5Turbo      | F-F      | -                    | 5-10s    | 297   | -     |       |             |
+| Wan2.1             | F-R      | -                    | 3s       | -     | 500   |       |             |
+| Kling-Avata        | F-R      | -                    | 3s       | -     | 300   |       |             |
+| HunYuan-avatr      | F-R      | -                    | 3-5s     | -     | 200   |       |             |
+| Humo               | F-R      | -                    | 3s       | 8800  | -     |       |             |
+| **Total Count**    | -        | -                    | -        | 100000 | 21000 |       | 121000      ||
 
 #### modelscope
 https://modelscope.cn/datasets/MengxueBoBo/MVAD
