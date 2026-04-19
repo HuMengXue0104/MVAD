@@ -1,5 +1,5 @@
 # MVAD：A Comprehensive Multimodal Video-Audio Dataset for AIGC Detection
-MVAD is the first general-purpose dataset specifically designed for detecting AI-generated multimodal video-audio content.https://www.arxiv.org/abs/2512.00336
+MVAD is the first general-purpose dataset specifically designed for detecting AI-generated multimodal video-audio
 ![](imgs/stastics.png)
 ## MVAD Dataset Download
 The version issue has been resolved, so everyone can use it. The training set has been uploaded, and the test set is still being uploaded.
