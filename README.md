@@ -8,34 +8,20 @@ The version issue has been resolved, so everyone can use it. The training set ha
 Reflecting the diversity of multimodal video-audio content in real-world scenarios, MVAD spans two visual domains (realistic and anime-style) and covers four primary categories: humans, animals, objects, and scenes. The dataset incorporates three video-audio forgery types and four modality combinations (fake-fake, fake-real, real-fake, real-real). As shown in Table, MVAD contains 205,758 multimodal video-audio samples generated using over 20 distinct methods, including  forged and 101,000 authentic samples. Following conventional dataset design principles , MVAD maintains a 1:1 ratio between forged and authentic samples. The distribution across modality combinations is as follows: fake-fake (62,178 samples), real-fake (31,880), fake-real (10,700), and real-real (101,000).
 | Video Source       | Modality | Audio Generate       | Length   | Train | Test  | Count | Total Count |
 |--------------------|----------|----------------------|----------|-------|-------|-------|-------------|
-| Ugc-VideoCaptioner | R-R      | -                    | 10-60s   | -     | 1000  |       |             |
-| HumoSet            | R-R      | -                    | 10-60s   | -     | 10000 |       |             |
 | HarmonySet         | R-R      | -                    | 10-60s   | 30000 | -     |       |             |
 | TalkVid            | R-R      | -                    | 3s       | 20000 | -     | 50000 |             |
-| Msvd               | R-F      | FC&HY&MMA&AX         | 1-10s    | -     | 4000  |       |             |
 | OpenVid-1M         | R-F      | FC&HY&MMA&AX         | 1-10s    | 8000  | -     |       |             |
-| InternVid-10M      | R-F      | FC&HY&MMA&AX         | 1-10s    | 8000  | -     |       |             |
+| InternVid-10M      | R-F      | FC&HY&MMA&AX         | 1-10s    | 8000  | -     | 24000 |             |
 | MSR-VTT            | R-F      | FC&HY&MMA&AX         | 1-10s    | 8000  | -     |       |             |
-| Pika               | F-F      | FC&HY&MMA&AX         | 3-5s     | -     | 664   |       |             |
-| ViduQ2             | F-F      | -                    | 2-5s     | -     | 1171  |       |             |
-| ViduQ3             | F-F      | -                    | 2-5s     | -     | 100   |       |             |
-| Wan2.6             | F-F      | -                    | 5-10s    | -     | 1090  |       |             |
-| Seedance2.0        | F-F      | -                    | 5s       | -     | 270   |       |             |
-| Kling3.0           | F-F      | -                    | 5s/10s   | -     | 622   |       |             |
-| Seedance1.5        | F-F      | -                    | 5s/10s   | -     | 1042  |       |             |
-| Veo3               | F-F      | -                    | 8-60s    | -     | 41    |       |             |
 | JiMeng             | F-F      | FC&HY&MMA&AX         | 5-10s    | 4764  | -     |       |             |
 | KlingO1            | F-F      | FC&HY&MMA&AX         | 4s       | 4400  | -     |       |             |
-| Sora2              | F-F      | -                    | 5-10s    | 5000  | -     |       |             |
+| Sora2              | F-F      | -                    | 5-10s    | 5000  | -     | 17200 |             |
 | Kling2.1           | F-F      | -                    | 5-10s    | 513   | -     |       |             |
 | Kling1.6           | F-F      | -                    | 5-10s    | 324   | -     |       |             |
 | Kling2.6           | F-F      | -                    | 5-10s    | 1902  | -     |       |             |
 | kling2.5Turbo      | F-F      | -                    | 5-10s    | 297   | -     |       |             |
-| Wan2.1             | F-R      | -                    | 3s       | -     | 500   |       |             |
-| Kling-Avata        | F-R      | -                    | 3s       | -     | 300   |       |             |
-| HunYuan-avatr      | F-R      | -                    | 3-5s     | -     | 200   |       |             |
-| Humo               | F-R      | -                    | 3s       | 8800  | -     |       |             |
-| **Total Count**    | -        | -                    | -        | 100000 | 21000 |       | 121000      ||
+| Humo               | F-R      | -                    | 3s       | 8800  | -     |  8800 |             |
+
 
 #### modelscope
 https://modelscope.cn/datasets/MengxueBoBo/MVAD
