@@ -1,5 +1,7 @@
 # MVAD: A Benchmark Dataset for Multimodal AI-Generated Video-Audio
 Detection
+## News
+The MVAD dataset has been adopted as the official dataset for the “IJCAI 2026 DDL 2.0 Competition Track 2 | DDL-GAV: Universal AIGC Audio-Video Forgery Detection Challenge”, jointly organized with Ant Digital Technologies at the CCF-A top conference IJCAI. The competition link is as follows: https://www.codabench.org/competitions/15769 . Everyone is welcome to actively participate!
 MVAD is the first general-purpose dataset specifically designed for detecting AI-generated multimodal video-audio
 ![](imgs/stastics.png)
 ## MVAD Dataset Download
